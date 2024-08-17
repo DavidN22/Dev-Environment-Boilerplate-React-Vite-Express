@@ -11,7 +11,7 @@ A boilerplate for a Vite (React) frontend and Express backend.
    ```
 2. **Reset repo history for you:**
    ```bash
-   rm -rf .git
+   rm -rf .git / Remove-Item -Recurse -Force .git
    ```
 3. **Install Dependencies:**
    - **Client:**
@@ -29,6 +29,7 @@ A boilerplate for a Vite (React) frontend and Express backend.
 
 5. **Create a newly made copy in your repo:**
    ```bash
+   git branch -M main
    git remote add origin <your origin>
    git push -u origin main
    ```
