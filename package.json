@@ -1,0 +1,28 @@
+{
+  "name": "vite-react-express-boilerplate",
+  "version": "1.0.0",
+  "description": "A boilerplate for a Vite (React) frontend and Express backend.",
+  "main": "server.js",
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "nodemon server/server.js",
+    "client": "npm --prefix client run dev"
+  },
+  "keywords": [],
+  "author": "David",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DavidN22/Dev-Environment-Boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DavidN22/Dev-Environment-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/DavidN22/Dev-Environment-Boilerplate#readme"
+}
